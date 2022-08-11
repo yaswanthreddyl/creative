@@ -1,0 +1,162 @@
+.main {
+    width: 30vw;
+    height: 100vh;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+.img2 {
+    float: right;
+    display: grid;
+    grid-template-columns: auto auto;
+    float: top;
+
+}
+.h1 {
+    height: 0.2vh;
+    width: 20vw;
+    background-color: black;
+    margin-top: 12vh;
+   
+}
+.img2 ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    list-style: none;
+    gap: 50px;
+    margin-right: 10vw;
+    margin-top: 10vh;
+}
+.img {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.img2 ul li {
+    opacity: 0.5;
+    font-size: 18px;
+    height: 5vh;
+}
+.img2 ul li:hover {
+    opacity: 1.5;
+}
+.img3 h1 {
+    position: absolute;
+    top: 2vh;
+    left: 35vw;
+    font-size: 8vw;
+}
+su {
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: 5px;
+}
+span {
+    position: relative;
+    left: 25vh;
+    bottom:5vh;
+    letter-spacing: 5px;
+    color: rgb(36, 34, 34);
+}
+.img3 h3 {
+    position:absolute;
+    top: 36vh;
+    left: 70vw;
+    font-size: 20px;
+    width: 10%;
+    opacity: 0.5;
+}
+button {
+    position:absolute;
+    top: 50vh;
+    left: 70vw;
+    padding: 10px 26px;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.fa-solid {
+    color: black;
+}
+.icons {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 23px;
+    position: absolute;
+    top: 17vh;
+    left: 88vw;
+}
+.fa-skating{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+}
+.icon h1 {
+    font-size: 20px;
+    position:absolute;
+    top: 60vh;
+    left: 55vw;
+    width: 30%;
+}
+.p2 {
+    position:absolute;
+    top: 73vh;
+    left: 55vw;
+    width: 30vw;
+    height: 27vh;
+}
+.cir {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+.last1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5vh;
+    width: 15vw;
+}
+.last1 h3 {
+    margin-top: -1vh;
+}
+.last {
+    position: absolute;
+    top: 65vh;
+    left: 35vw;
+}
+
+.h2 {
+    width: 1px;
+    height: 35vh;
+    background-color: black;
+    position:absolute;
+    top: 66vh;
+    left: 35.35vw;
+    opacity: 0.3;
+}
+.last1 {
+    opacity: 0.5;
+}
+.last1:hover {
+    opacity: 1;
+}
+.last1 div h3 {
+    margin-right: 5vw;
+}
+.ab {
+    width: 150px;
+}
+.logo {
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 7vh;
+    left: 5vw;
+}
